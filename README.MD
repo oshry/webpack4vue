@@ -27,3 +27,7 @@ run webpack.config.dev.autoreload.js
 npm install --save-dev css-loader vue-style-loader
 # stylus for CSS pre-processing so I’ve installed the loader
 npm install --save-dev stylus stylus-loader
+#  install Babel to transpile our code to ES5
+$ npm install --save-dev @babel/core babel-loader @babel/preset-env
+
+ref: [ https://itnext.io/vue-js-and-webpack-4-from-scratch-part-2-5038cc9deffb ]
