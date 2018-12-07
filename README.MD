@@ -29,5 +29,9 @@ npm install --save-dev css-loader vue-style-loader
 npm install --save-dev stylus stylus-loader
 #  install Babel to transpile our code to ES5
 $ npm install --save-dev @babel/core babel-loader @babel/preset-env
+# Linting
+npm install --save-dev eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-config-standard babel-eslint eslint-loader eslint-plugin-vue
+# run Lint automatically
+npm install --save-dev eslint-loader
 
 ref: [ https://itnext.io/vue-js-and-webpack-4-from-scratch-part-2-5038cc9deffb ]
